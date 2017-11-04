@@ -11,7 +11,7 @@
       ]
     },
     "versionFirst": "4.3.4",
-    "uniqCompNum": 25,
+    "uniqCompNum": 29,
     "versionPublish": "4.3.4",
     "favicon": "@PROJECT_PATH@/assets/images/ez-128x96.png",
     "noImageResize": ""
@@ -35,7 +35,9 @@
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#2c2c2c"
             },
-            ".mbr-navbar__section": {},
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
             ".mbr-navbar__hamburger": {
               "color": "#ffffff"
             },
@@ -49,7 +51,7 @@
             "showButtons": false,
             "sticky": true,
             "collapsed": false,
-            "transparent": true,
+            "transparent": false,
             "color": "#2c2c2c",
             "hamburgerColor": "#ffffff"
           },
@@ -57,12 +59,13 @@
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/venez-192x128.png",
+              "src": "@PROJECT_PATH@/assets/images/bandicam-2017-11-03-20-32-10-129-235x128.png",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com",
-              "title": ""
+              "title": "",
+              "active": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -71,8 +74,7 @@
               "family": "MobiriseIcons",
               "link": "#top",
               "size": 0,
-              "newWindow": false,
-              "active": true
+              "newWindow": false
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"#top\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">SafetyOwl</a>",
@@ -104,7 +106,7 @@
             "overlayOpacity": "0.8"
           },
           "title": "SafetyOwl",
-          "text": "Lo Mejor en seguridad al alcance de tus manos.",
+          "text": "El mejor sistema de seguridad con hardware libre del mercado.",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> ",
           "_tags": [
             "Theme"
@@ -167,7 +169,7 @@
             },
             "video": {
               "active": true,
-              "src": "https://www.youtube.com/watch?v=tRw26sEEywY",
+              "src": "https://www.youtube.com/watch?v=zq7fpTuPtPA&feature=youtu.be",
               "class": "mbr-figure__img",
               "aspectratio": "16:9",
               "autoplay": false,
@@ -177,7 +179,7 @@
           "title": "¿Por qué SafetyOwl?",
           "meta": "By John Smith posted July 30, 2015",
           "text": "SafetyOwl es un dispositivo de seguridad que te permitirá mantener seguro tu hogar, negocio o empresa, de hurtos y robos, si quieres saber mas puedes ver el siguiente video.",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://www.youtube.com/watch?v=tRw26sEEywY\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>Ver en YouTube</a>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://www.youtube.com/watch?v=zq7fpTuPtPA&amp;feature=youtu.be\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-smile-face mbr-iconfont mbr-iconfont-btn\"></span>Ver en YouTube</a>",
           "_tags": [
             "Theme"
           ],
